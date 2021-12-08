@@ -32,7 +32,7 @@ public class Sendemail {
     private final static String messageType = "text/html;charset=UTF-8";//相应内容类型，编码类型
     private final static String subject = "订单信息";//主题
     private final static String fromEmail = "972418605@qq.com";//发送邮件的邮箱
-    private final static String password = "rftlsjsnpsmibdig";//密码
+    private final static String password = "####";//密码
 
     @SuppressWarnings("static-access")
     public static boolean sendMail(String to, String msg) {
